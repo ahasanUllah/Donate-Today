@@ -121,12 +121,11 @@ button {
 }
 .plan-box-single {
   max-width: 320px;
-  /* max-height: 352px; */
   padding: 30px 30px;
   margin-left: 20px;
 }
 .plan-box-single p {
-  width: 360px;
+  width: 300px;
   padding: 0 0px;
   font-size: 16px;
   font-family: popins;
