@@ -163,3 +163,51 @@ button {
   font-family: popins;
   color: #707070;
 }
+
+.subscribe {
+  background-color: #fff4d6;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#email {
+  width: 300px;
+  padding: 12px 25px;
+  background-color: #d9d9d9;
+  border: 0px solid white;
+  color: #aa9f9f;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#subscribe-button {
+  border-radius: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.subscribe-text {
+  width: 500px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+footer p {
+  text-align: center;
+}
+footer h3 {
+  font-size: 36px;
+  color: #ff5959;
+}
