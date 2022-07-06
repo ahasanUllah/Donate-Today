@@ -117,10 +117,11 @@ button {
   display: flex;
   width: 100hw;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .plan-box-single {
-  width: 360px;
-  max-height: 352px;
+  max-width: 320px;
+  /* max-height: 352px; */
   padding: 30px 30px;
   margin-left: 20px;
 }
@@ -141,4 +142,24 @@ button {
 }
 .yellow-color {
   background-color: #fff4d688;
+}
+.contribute {
+  display: flex;
+  width: 60vw;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.103);
+  margin: 30px auto;
+  padding: 30px;
+}
+.contribute img {
+  width: 100%;
+}
+.contribute-text {
+  padding-left: 50px;
+}
+.contribute p {
+  margin: 40px 0;
+  font-family: popins;
+  color: #707070;
 }
