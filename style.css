@@ -195,6 +195,10 @@ button {
   margin: 100px auto 0 auto;
   text-align: center;
 }
+.subscribe-text p {
+  color: #707070;
+  font-size: 16px;
+}
 footer {
   background-color: black;
   color: white;
